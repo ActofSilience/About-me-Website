@@ -1,0 +1,76 @@
+﻿body {
+    padding: 50px;
+    width: 950px;
+    margin: 10px;
+    font-family: Calibri;
+    font-size: 85%;
+    background-color:darkgrey
+}
+header {
+    text-align:center;
+}
+header h1{
+    text-align:center;
+    font-size:200%;
+}
+header h2{
+    font-size:175%;
+    text-align:center;
+       
+}
+header h3{
+    text-align:center;
+}
+    figure {
+    width: 300px;
+    float: right;
+    margin: 1em;
+    padding: 1em;
+    border-left: 1px solid black;
+}
+    section header{
+        font-size:175%;
+    }
+    nav{
+        text-align:center;
+    }
+figcaption {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    align-content: center;
+}
+    
+    footer{
+    text-align: center;
+}
+    form{
+        text-align:center;
+    }
+    section h3{
+        text-align:center;
+    }
+    section p{
+        text-align:center;
+    }
+nav ul li a:hover {
+    text-decoration: none;
+    font-size: 1.25em;
+}
